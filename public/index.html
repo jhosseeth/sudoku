@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Smart Sudoku</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/utils.js"></script>
+</head>
+<body>
+	<header>Titluo</header>
+	<main>
+		<p id="status">OpenCV.js is loading...</p>
+		<div class="caption">imageSrc <input type="file" id="fileInput" name="file" /></div>
+
+		<table class="sudoku">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+		</table>
+
+		<div>
+			<div class="original_img">
+				<img id="imageSrc" alt="No Image" />
+			</div>
+
+			<div class="processed_img">
+				<div class="caption">canvasOutput</div>
+				<canvas id="canvasOutput"></canvas>
+			</div>
+		</div>
+	</main>
+	<footer>Footer</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script async src="https://docs.opencv.org/master/opencv.js" type="text/javascript"></script>
+</body>
+</html>

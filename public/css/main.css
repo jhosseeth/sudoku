@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+
+header {
+	padding: 1rem;
+}
+
+main {
+	padding: 1rem;
+}
+
+table.sudoku {
+	border: solid 1px black;
+}
+
+footer {
+	padding: 1rem
+}

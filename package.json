@@ -1,0 +1,26 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "A web to resolve your sudokus",
+  "scripts": {
+    "start": "npx http-server ./public/",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhosseeth/sudoku.git"
+  },
+  "keywords": [
+    "sudoku",
+    "games"
+  ],
+  "author": "Jhosseeth Naranjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhosseeth/sudoku/issues"
+  },
+  "homepage": "https://github.com/jhosseeth/sudoku#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
